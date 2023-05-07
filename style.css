@@ -1,0 +1,105 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&family=Nunito+Sans:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+/* header style here */
+.header {
+  height: 8%;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* common header style here */
+.bar,
+.search,
+h4 {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+/* bar style here */
+.bar {
+  width: 20%;
+  font-size: 20px;
+  color: #96a1a7;
+}
+
+/* heading style here */
+h4 {
+  width: 57%;
+  font-family: "comme", sans-serif;
+  letter-spacing: 1px;
+  color: #1c1c1c;
+}
+
+/* search style here */
+.search {
+  width: 20%;
+  color: #96a1a7;
+}
+
+/* list style here */
+ul li {
+  display: flex;
+  margin-top: 20px;
+}
+.list {
+  height: 80%;
+  margin: 30px 20px 20px 20px;
+}
+
+/* circle style here */
+.circle {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 45px;
+  padding: 1px 1px 0px 0px;
+}
+
+/* image style here */
+img {
+  display: inline-block;
+  height: 80px;
+}
+
+/* content about image style here */
+.content {
+  padding: 20px 0px 0px 20px;
+  font-family: "Open sans", sans-serif;
+}
+.about {
+  font-size: 12px;
+}
+
+/* edit button style here */
+.edit {
+  margin: 10px 0px 0px 20px;
+  display: inline-block;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px 5px;
+}
+.pencil {
+  height: 30px;
+  padding-top: 14px;
+}
+button {
+  border: none;
+  background-color: #fff;
+}
